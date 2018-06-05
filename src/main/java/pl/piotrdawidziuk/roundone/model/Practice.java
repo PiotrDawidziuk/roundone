@@ -11,6 +11,7 @@ public class Practice {
     long id;
 
     String day;
-
+    int duration;
+    
 
 }
