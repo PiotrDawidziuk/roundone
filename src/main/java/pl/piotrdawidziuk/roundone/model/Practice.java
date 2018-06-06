@@ -13,5 +13,7 @@ public class Practice {
     String day;
     int duration;
 
+    @ManyToOne
+    User user;
 
 }
