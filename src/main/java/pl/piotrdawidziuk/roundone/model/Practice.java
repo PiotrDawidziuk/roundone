@@ -1,6 +1,7 @@
 package pl.piotrdawidziuk.roundone.model;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table (name = "practices")
@@ -15,5 +16,10 @@ public class Practice {
 
     @ManyToOne
     User user;
+
+    @OneToMany(mappedBy = "user")
+    List<Fighter> fighters;
+
+
 
 }
