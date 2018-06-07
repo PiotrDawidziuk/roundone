@@ -21,6 +21,12 @@
     <p><form:errors path="username" cssClass="error"/><p/>
 
 
+    <p><label for="email">E-Mail</label></p>
+    <p><form:input path="email" id="email"/></p>
+    <p><form:errors path="email" cssClass="error"/></p>
+
+
+    <p><button class="button" type="submit">Continue</button></p>
 
 </form:form>
 </body>

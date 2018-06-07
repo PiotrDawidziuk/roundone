@@ -13,10 +13,20 @@ public class User {
 
     String username;
 
+    String email;
+
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     List<Practice> practices;
 
     public User() {
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public long getId() {
