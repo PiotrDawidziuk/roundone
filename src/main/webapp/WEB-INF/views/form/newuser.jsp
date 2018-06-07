@@ -15,7 +15,12 @@
 <p>Create a new user</p>
 
 <form:form modelAttribute="user">
-    
+    <form:errors path="*"/>
+    <p><label for="username"></label> </p>
+    <p><form:input path="username" id="username"/></p>
+    <p><form:errors path="username" cssClass="error"/><p/>
+
+
 
 </form:form>
 </body>
