@@ -34,7 +34,7 @@ public class UserController {
         else {
             userRepository.save(user);
             long id = user.getId();
-            return "redirect:/practice/"+id; //add JSP for adding practices and practice controller
+            return "redirect:/form/practice/"+id; //add JSP for adding practices and practice controller
         }
     }
 
