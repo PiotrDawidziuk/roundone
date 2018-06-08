@@ -1,5 +1,6 @@
 package pl.piotrdawidziuk.roundone;
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

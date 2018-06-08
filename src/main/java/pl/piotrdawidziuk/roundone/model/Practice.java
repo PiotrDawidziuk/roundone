@@ -17,9 +17,7 @@ public class Practice {
     @ManyToOne
     User user;
 
-    @OneToMany(mappedBy = "user")
-    List<Fighter> fighters;
-
-
+//    @OneToMany(mappedBy = "user")
+//    List<Fighter> fighters;
 
 }
